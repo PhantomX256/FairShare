@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@config "../../tailwind.config.ts";
+
+* {
+    box-sizing: border-box;
+}
+
+/* Scroll Bar Styles */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #050505;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #333;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.glass-panel {
+    background: rgba(20, 20, 20, 0.6);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.text-gradient {
+    background: linear-gradient(135deg, #FFFFFF 0%, #a1a1aa 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-primary {
+    background: linear-gradient(135deg, #60a5fa 0%, #1337ec 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
