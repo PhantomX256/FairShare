@@ -1,6 +1,6 @@
 function FeaturesSection() {
     return (
-        <section className="relative py-32 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <section id="features" className="relative py-32 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="glass-panel rounded-3xl p-8 lg:p-12 overflow-hidden relative">
                 <div
                     className="absolute top-0 right-0 w-1/2 h-full bg-linear-to-l from-primary/10 to-transparent opacity-50 pointer-events-none"></div>

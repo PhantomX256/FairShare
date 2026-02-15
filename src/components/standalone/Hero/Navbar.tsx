@@ -11,7 +11,7 @@ function Navbar() {
                     </div>
                     <nav className="hidden md:flex items-center gap-8">
                         <a className="text-sm font-medium text-gray-300 hover:text-white transition-colors"
-                           href="#">Features</a>
+                           href="#features">Features</a>
                         <a className="text-sm font-medium text-gray-300 hover:text-white transition-colors"
                            href="#">About</a>
                     </nav>
