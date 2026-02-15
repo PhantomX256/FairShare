@@ -1,3 +1,5 @@
+import {Link} from "react-router-dom";
+
 function Navbar() {
     return (
         <header className="fixed top-0 left-0 right-0 z-50 transition-all duration-300">
@@ -15,10 +17,12 @@ function Navbar() {
                         <a className="text-sm font-medium text-gray-300 hover:text-white transition-colors"
                            href="#">About</a>
                     </nav>
-                    <button
-                        className="bg-primary hover:bg-blue-600 text-white text-sm font-semibold py-2 px-5 rounded-full shadow-[0_0_15px_rgba(19,55,236,0.3)] transition-all transform hover:scale-105">
-                        Get Started
-                    </button>
+                    <Link to="/auth">
+                        <button
+                            className="bg-primary cursor-pointer hover:bg-blue-600 text-white text-sm font-semibold py-2 px-5 rounded-full shadow-[0_0_15px_rgba(19,55,236,0.3)] transition-all transform hover:scale-105">
+                            Get Started
+                        </button>
+                    </Link>
                 </div>
             </div>
         </header>
